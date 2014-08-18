@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'A collection of HTML element and attribute style-normalizations',
-  version: '0.9.1'
+  version: '0.0.3'
 });
 
 Package.onUse(function (api) {
