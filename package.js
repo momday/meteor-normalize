@@ -1,7 +1,9 @@
 Package.describe({
-  summary: 'A collection of HTML element and attribute style-normalizations'
+  summary: 'A collection of HTML element and attribute style-normalizations',
+  version: '0.9.1'
 });
 
-Package.on_use(function (api) {
-  api.add_files(['normalize.css/normalize.css'], 'client');
+Package.onUse(function (api) {
+  api.versionsFrom('METEOR-CORE@0.9.0-rc9');
+  api.addFiles(['normalize.css/normalize.css'], 'client');
 });
