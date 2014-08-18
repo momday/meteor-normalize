@@ -1,0 +1,7 @@
+{
+  "name": "normalize",
+  "description": "A collection of HTML element and attribute style-normalizations",
+  "author": "Wei-Ting Kuo (waitingkuo0527@gmail.com)",
+  "version": "0.0.1",
+  "git": "https://github.com/waitingkuo/meteor-normalize/"
+}
